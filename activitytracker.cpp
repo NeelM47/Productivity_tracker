@@ -71,9 +71,9 @@ int main() {
         } else {
             cout << "⚠️  No problem! You can catch up later.\n";
         }
-        
+		
         // Optional: Wait for a second before the next activity for readability
-        std::this_thread::sleep_for(std::chrono::seconds(1));
+        //std::this_thread::sleep_for(std::chrono::seconds(1));
     }
 
     cout << "\nAll activities have been processed. Have a productive day!\n";
